@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  /* background: linear-gradient(to top right, #ebebeb 55%, #fff 40.2%); */
+  /* background: rgb(72,92,91);
+background: linear-gradient(0deg, rgba(72,92,91,1) 0%, rgba(0,0,0,1) 100%); */
+background: rgb(156,151,124);
+background: linear-gradient(0deg, #9c977c 0%, #376176 91%);
+}
+
+.transitionsApp {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /* background: linear-gradient(to top right, #ebebeb 55%, #fff 40.2%); */
+  /* background: rgb(72,92,91);
+background: linear-gradient(0deg, rgba(72,92,91,1) 0%, rgba(0,0,0,1) 100%); */
+background: #376176;
+/* background: linear-gradient(0deg, #9c977c 0%, #376176 91%); */
+}
+
+.fullview {
+  height: 100%;
+  width: 100%;
+}
+

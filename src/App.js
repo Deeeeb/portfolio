@@ -32,7 +32,7 @@ export default function App() {
         variants={blackBox}
         onAnimationStart={() => document.getElementById("awa").style.overflow="hidden"}
         onAnimationComplete={() =>
-          document.getElementById("awa").style.overflow="auto"
+          document.getElementById("awa").style.overflow="hidden"
         }
       />
     );

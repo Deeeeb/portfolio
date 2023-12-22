@@ -1,21 +1,7 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Segment, Menu, Icon } from 'semantic-ui-react';
 import MenuModal from './MenuModal';
-const useCheckMobileScreen = () => {
-  const [width, setWidth] = useState(window.innerWidth);
-  const handleWindowSizeChange = () => {
-    setWidth(window.innerWidth);
-  }
-
-  useEffect(() => {
-    window.addEventListener('resize', handleWindowSizeChange);
-    return () => {
-      window.removeEventListener('resize', handleWindowSizeChange);
-    }
-  }, []);
-
-  return (width <= 768);
-}
+import {useCheckMobileScreen} from '../utils/commonFunc';
 
 export default function NavBarTop(props) {
   const [activeItem, setActiveItem] = useState('home');
